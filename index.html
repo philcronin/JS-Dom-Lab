@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<div>
+		<p class="counter"></p>
+		<div class="centerButtons">
+		<button data-price="2.00" class="limeButton">Lime Cola</button>
+		<button data-price="3.00" class="peanutButton">Salted Peanuts</button>
+		<button data-price="4.00" class="chocolateButton">Chocolate Bar</button>
+		<button data-price="6.00" class="gummieButton">Fruit Gummies</button>
+	</div>
+	</div>
+	<div class="form-coins">
+		<form class="makeMoney">
+      <label for="howMany">How many?</label>
+      <input type="number" , id="howMany" , name="howMany" />
+      <label for="whichCoin">Which coin?</label>
+      <select name="whichCoin" id="whichCoin">
+        <option value="penny" data-worth=".01">Penny</option>
+        <option value="nickel" data-worth=".05">Nickel</option>
+        <option value="dime" data-worth=".10">Dime</option>
+        <option value="quarter" data-worth=".25">Quarter</option>
+      </select>
+      <button>Make Money!</button>
+		</form>
+		<div class="coin-container"></div>
+	</div>
+	<div class="light-container">
+		<div class="light-bulb"></div>
+		<button class="light-button onbutton opbutton">On</button>
+		<button class="light-button offbutton opbutton">Off</button>
+		<button class="light-button togglebutton opbutton">Toggle</button>
+		<button class="light-button endbutton opbutton">End</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
